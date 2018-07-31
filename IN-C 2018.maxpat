@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 148.0, 51.0, 799.0, 624.0 ],
+		"rect" : [ 148.0, 51.0, 800.0, 624.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,24 @@
 		"showontab" : 1,
 		"title" : "In C 2018",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 0,
+					"id" : "obj-11",
+					"maxclass" : "number",
+					"maximum" : 3,
+					"minimum" : -3,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 348.600006, 646.0, 24.0, 22.0 ],
+					"presentation_rect" : [ 364.0, 650.0, 0.0, 0.0 ],
+					"style" : "",
+					"triangle" : 0
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-51",
 					"maxclass" : "newobj",
@@ -226,7 +244,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 247.875, 122.5, 102.0, 80.0 ],
 					"style" : "",
-					"text" : "1",
+					"text" : "36",
 					"textjustification" : 1
 				}
 
@@ -791,6 +809,8 @@
 				"box" : 				{
 					"id" : "obj-124",
 					"maxclass" : "number",
+					"maximum" : 3,
+					"minimum" : -3,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -823,7 +843,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 466.5, 136.0, 24.0, 20.0 ],
 					"style" : "",
-					"text" : "1",
 					"textjustification" : 1
 				}
 
@@ -864,6 +883,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 467.5, 169.5, 24.0, 20.0 ],
 					"style" : "",
+					"text" : "-3",
 					"textjustification" : 1
 				}
 
@@ -2373,7 +2393,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 425.0, 618.0, 59.0, 22.0 ],
+					"patching_rect" : [ 442.166687, 618.0, 59.0, 22.0 ],
 					"style" : "",
 					"text" : "pvar shift"
 				}
@@ -2403,7 +2423,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 365.0, 646.0, 45.0, 22.0 ],
+					"patching_rect" : [ 393.0, 646.0, 24.0, 22.0 ],
 					"style" : "",
 					"triangle" : 0
 				}
@@ -2482,7 +2502,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 144.900009, 276.0, 646.0, 205.0 ],
-					"pic" : "Sco1.png",
+					"pic" : "Sco36.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 117.100006, 301.5, 646.900024, 187.5 ],
 					"varname" : "score"
@@ -2727,7 +2747,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 209.0, 533.5, 78.5, 20.0 ],
 									"style" : "",
-									"text" : "79 0"
+									"text" : "91 0"
 								}
 
 							}
@@ -4528,7 +4548,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 26.0, 799.0, 598.0 ],
+						"rect" : [ 0.0, 26.0, 800.0, 598.0 ],
 						"bgcolor" : [ 0.860464, 0.889798, 0.889798, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -5130,6 +5150,19 @@
 										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-8",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 27.0, 536.0, 72.0, 22.0 ],
+													"style" : "",
+													"text" : "loadmess 0"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"id" : "obj-91",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
@@ -5322,7 +5355,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "int", "", "" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 27.0, 553.0, 158.0, 22.0 ],
+													"patching_rect" : [ 27.0, 560.0, 158.0, 22.0 ],
 													"presentation" : 1,
 													"presentation_rect" : [ 22.5, 48.0, 187.0, 22.0 ],
 													"style" : ""
@@ -5374,7 +5407,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 9.0, 583.0, 49.0, 22.0 ],
+													"patching_rect" : [ 9.0, 590.0, 49.0, 22.0 ],
 													"style" : "",
 													"text" : "midiout"
 												}
@@ -6278,7 +6311,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-74", 0 ],
-													"midpoints" : [ 227.5, 594.0, 190.0, 594.0, 190.0, 546.0, 36.5, 546.0 ],
+													"midpoints" : [ 227.5, 594.0, 190.0, 594.0, 190.0, 555.0, 36.5, 555.0 ],
 													"source" : [ "obj-73", 0 ]
 												}
 
@@ -6286,7 +6319,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-69", 0 ],
-													"midpoints" : [ 106.0, 578.5, 18.5, 578.5 ],
+													"midpoints" : [ 106.0, 586.5, 18.5, 586.5 ],
 													"source" : [ "obj-74", 1 ]
 												}
 
@@ -6310,6 +6343,13 @@
 													"destination" : [ "obj-67", 2 ],
 													"order" : 1,
 													"source" : [ "obj-79", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-74", 0 ],
+													"source" : [ "obj-8", 0 ]
 												}
 
 											}
@@ -7950,7 +7990,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 26.0, 799.0, 598.0 ],
+						"rect" : [ 0.0, 26.0, 800.0, 598.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -8732,6 +8772,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 4 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-107", 0 ],
 					"source" : [ "obj-115", 0 ]
 				}
@@ -8861,16 +8908,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-11", 0 ],
+					"order" : 1,
 					"source" : [ "obj-22", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 4 ],
-					"order" : 1,
+					"destination" : [ "obj-33", 0 ],
+					"order" : 0,
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -8892,7 +8939,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
-					"midpoints" : [ 374.5, 672.0, 422.299988, 672.0, 422.299988, 611.0, 358.100006, 611.0 ],
+					"midpoints" : [ 402.5, 672.0, 433.299988, 672.0, 433.299988, 611.0, 358.100006, 611.0 ],
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -9194,7 +9241,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "Sco1.png",
+				"name" : "Sco36.png",
 				"bootpath" : "~/Documents/Max 7/In C 2018/media",
 				"patcherrelativepath" : "./media",
 				"type" : "PNG ",
